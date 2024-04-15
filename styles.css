@@ -537,7 +537,7 @@ transition: opacity  0.5s ease-in-out;
 
 }
 
-@media only screen and (min-width:1441px){
+@media only screen and (min-width:1900px){
 
   .container1{
     background-color: black;
@@ -641,20 +641,20 @@ transition: opacity  0.5s ease-in-out;
      
    }
    
-@media only screen and (min-width: 1101px) and (max-width: 1440px){
+@media only screen and (min-width: 1101px) and (max-width: 1400px){
 
   .container1{
     background-color: black;
     display: flex;
-    height: 113%;
-    width: 100%;
+    height: 110%;
+    width: 56%;
     position: relative; /* Add relative positioning */
   }
   
   .left, .right {
     height: 90%; /* Set the height to 90% */
     margin-top: 5px;
-    width: 90%;
+    width: 120%;
     position: relative;
   }
   
@@ -722,7 +722,7 @@ transition: opacity  0.5s ease-in-out;
   transition: opacity  0.5s ease-in-out;
   }
   .pacman-button{
-    margin: 53em;
+    margin: 30em;
   }
   .formbox:target{
   opacity: 1;
@@ -742,7 +742,108 @@ transition: opacity  0.5s ease-in-out;
      
    }
    
+   @media only screen and (min-width: 1440px) and (max-width: 1900px){
 
+    .container1{
+      background-color: black;
+      display: flex;
+      height: 110%;
+      width: 56%;
+      position: relative; /* Add relative positioning */
+    }
+    
+    .left, .right {
+      height: 90%; /* Set the height to 90% */
+      margin-top: 5px;
+      width: 90%;
+      position: relative;
+    }
+    
+    
+    
+    
+    .IPL {
+    
+    font: 1.2em 'Montserrat';
+    
+    top: 50%;
+    
+    }
+    
+    
+    .UEFA{
+    
+    font: 1.2em 'Montserrat';
+    
+    top: 50%;
+    
+    }
+    
+    .title1{
+    display: flex;
+    height: 100%;
+      width:100%;
+      
+    align-items: center;
+    font-family: Arial;
+    top: -35%;
+    position: relative;
+    }
+    
+    
+    
+    
+    .title2{
+    display: flex;
+    height: 100%;
+      width:100%;
+     
+    align-items: center;
+    font-family: Arial;
+    top: -35%;
+    position: relative;
+    }
+    
+    
+    .container2{
+      display: grid;
+      height: 100%;
+      align-items: center;
+      justify-content: center; 
+      transform: translate(34%,-2%);
+      z-index: 3;
+      top: 40em;
+      
+    }
+    
+    .formbox{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    transition: opacity  0.5s ease-in-out;
+    }
+    .pacman-button{
+      margin: 30em;
+    }
+    .formbox:target{
+    opacity: 1;
+    }
+    #form{
+    margin: auto;
+    transform: translate(0%,-5%);
+    height: 100%;
+    width: 130%;
+    background: black;
+    justify-items: center;
+    
+    }
+    body{
+      overflow-x: hidden;
+    }
+       
+     }
+     
+  
  @media only screen and (min-width: 820px) and (max-width: 1100px){
    
   .container1 {
@@ -876,7 +977,7 @@ transition: opacity  0.5s ease-in-out;
     
     .IPL {
     
-    font: 1.5em 'Montserrat';
+    font: 2em 'Montserrat';
     
     top: 50%;
     
@@ -885,7 +986,7 @@ transition: opacity  0.5s ease-in-out;
     
     .UEFA{
     
-    font: 1.4em 'Montserrat';
+    font: 2em 'Montserrat';
     
     top: 51%;
     
@@ -981,7 +1082,7 @@ transition: opacity  0.5s ease-in-out;
       
       .IPL {
       
-      font: 1.5em 'Montserrat';
+      font: 2em 'Montserrat';
       
       top: 60%;
       
@@ -990,7 +1091,7 @@ transition: opacity  0.5s ease-in-out;
       
       .UEFA{
       
-      font: 1.4em 'Montserrat';
+      font: 2em 'Montserrat';
       
       top: 71%;
       
@@ -1029,7 +1130,7 @@ transition: opacity  0.5s ease-in-out;
         transform: translate(100%,0%);
         z-index: 3;
         top: -34em;
-        left: 59em;
+        left: 55em;
       }
       .pacman-button{
         margin-top: 28em;
@@ -1092,7 +1193,7 @@ transition: opacity  0.5s ease-in-out;
       
       .IPL {
       
-      font: 1.5em 'Montserrat';
+      font: 1.7em 'Montserrat';
       
       top: 60%;
       
@@ -1101,7 +1202,7 @@ transition: opacity  0.5s ease-in-out;
       
       .UEFA{
       
-      font: 1.4em 'Montserrat';
+      font: 1.7em 'Montserrat';
       
       top: 71%;
       
@@ -1197,7 +1298,7 @@ transition: opacity  0.5s ease-in-out;
       
       .IPL {
       
-      font: 1.5em 'Montserrat';
+      font: 1.7em 'Montserrat';
       
       top: 60%;
       
@@ -1206,9 +1307,9 @@ transition: opacity  0.5s ease-in-out;
       
       .UEFA{
       
-      font: 1.4em 'Montserrat';
+      font: 1.7em 'Montserrat';
       
-      top: 71%;
+      top: 60%;
       
       }
       
@@ -1224,8 +1325,12 @@ transition: opacity  0.5s ease-in-out;
       }
       
       
-      
-      
+      .heading{
+        font-size: 0.4em;
+      }
+      .heading1{
+        font-size: 0.4em;
+      }
       .title2{
       display: flex;
       height: 100%;
@@ -1245,7 +1350,7 @@ transition: opacity  0.5s ease-in-out;
         transform: translate(100%,0%);
         z-index: 3;
         top: -45em;
-        left: 49em;
+        left: 42em;
     }
  
       
@@ -1269,5 +1374,3 @@ transition: opacity  0.5s ease-in-out;
       background: black;
       justify-items: center;
       }}
-      
-    
