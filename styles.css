@@ -44,7 +44,7 @@ body, html {
 }
 
 
-/* .rule1, .rule2 {
+ .rule1, .rule2 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -100,7 +100,7 @@ font-weight: bold;
 color: black;
 text-decoration: none;
 cursor: pointer;
-} */
+} 
 
 .IPL {
 color: white;
